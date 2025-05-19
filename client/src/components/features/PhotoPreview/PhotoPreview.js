@@ -28,7 +28,7 @@ const PhotoPreview = ({ id }) => {
 
     return (
       <section className="text-center animated fadeIn">
-        <h1 className="mb-2">{ title }</h1>
+        <h3 className="mb-2">{ title }</h3>
         <span className="d-block text-muted mb-3">By { author }</span>
         <img className="photo-preview" src={`${IMAGES_URL}/${src}`} alt={title}  />
         <span className="d-block text-muted mb-3">{ votes } votes</span>
